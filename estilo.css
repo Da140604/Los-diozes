@@ -1,3 +1,8 @@
-h2{
-color: rgb(0, 35, 100);
+<style>
+h2 {
+color:rgb(60, 35, 100);
 }
+h1 {
+  color:rgb(45, 60, 7)
+}
+</style>
