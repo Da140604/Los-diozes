@@ -28,13 +28,16 @@
   <h3 id="pepe"> Encabezado usando la hoja de estilos paco </h3>
   <h4 id="pepe"> Encabezado usando la hoja de estilos manolo </h4>
 <script>
-var nombre = prompt("Escribe tu nombre");
+var nombre = prompt ("Escribe tu nombre");
   document.write (" El nombre que has introducido es: " +nombre);
 var número1 = prompt ("Escribe tu número favorito");
 var número2 = prompt ("Escribe tu segundo número favorito");
-  var resultado = número1+número2;
-document.write ("el resultado de la suma es: " +resultado);
-  
+ 
+  número1 = Number(número1);
+  número2 = Number(número2);
+   var resultado = número1+número2;
+document.write ("<h3>El resultado de la suma es: </h3>" +resultado);
+  document.write ("<h3 id="pepe">El resultado de la multiplicación es: </h3>" +número1+número2);
 </script>
 
 
